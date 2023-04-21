@@ -12,8 +12,7 @@ public class Main {
     public static void task5() {
         int[][] arr = new int[3][3];
         int n=1;
-        for (int i=0,t=0;i< arr.length&&t< arr.length;i++,t++){for (int j=0;j< arr.length;j++){
-            arr[i][j]=n;}
+        for (int i=0,t=0;i< arr.length&&t< arr.length;i++,t++){
             arr[i][t]=n; }
         for (int[] row : arr) {
             for (int column : row) {
